@@ -16,11 +16,12 @@ robot (or a clinician) trust what the model says, and when does it quietly fail?
 | Question | Short answer |
 |---|---|
 | [**How close can a robot get to a person?**](https://github.com/HessamKaveh/pose-safety-margins)<br><sub>Conformal safety margins for human keypoints · COCO</sub> | Per-joint 90 % discs leave half of all people with a joint outside; a whole-body score restores the guarantee, but motion blur breaks it (52–86 % coverage). |
+| [**Which explanations of a dental AI model can be trusted?**](https://github.com/HessamKaveh/caries-xai)<br><sub>Caries detection on intraoral photos · AlphaDent</sub> | Integrated Gradients agrees best with expert lesion masks (71 % pointing game, Grad-CAM 55 %); random splits instead of per-patient ones inflate AUROC by 3 points. |
 | [**Does a point-cloud classifier survive a real depth camera?**](https://github.com/HessamKaveh/3d-pointcloud-classification)<br><sub>PointNet / DGCNN · ModelNet40 vs simulated RGB-D scans</sub> | No: 92 % on CAD models drops to 16 % on realistic scans. Training on simulated scans brings it back to 80 %. |
 | [**Can a segmentation mask come with a guarantee?**](https://github.com/HessamKaveh/segmentation-risk-control)<br><sub>Conformal risk control · DeepLabV3 / LR-ASPP · PASCAL VOC</sub> | Yes on clean images (missed object pixels 28 % → 10 %), but small objects stay under-covered and motion blur breaks it (56 % missed). |
 | [**Can a few-shot classifier say "I don't know"?**](https://github.com/HessamKaveh/few-shot-open-set)<br><sub>Open-set few-shot recognition · CIFAR-100</sub> | Barely: while keeping 95 % of taught objects, at least 59 % of never-taught objects are still accepted. |
 | [**Does self-supervision make vision robust, or just label-efficient?**](https://github.com/HessamKaveh/simclr-contrastive-learning)<br><sub>SimCLR vs supervised · CIFAR-10 with camera corruptions</sub> | Only label-efficient. Putting the camera's corruptions into the SimCLR augmentations adds robustness, matching supervised training with 10× more labels. |
-| [**Which explanations of a dental AI model can be trusted?**](https://github.com/HessamKaveh/caries-xai)<br><sub>Caries detection on intraoral photos · AlphaDent</sub> | Integrated Gradients agrees best with expert lesion masks (71 % pointing game, Grad-CAM 55 %); random splits instead of per-patient ones inflate AUROC by 3 points. |
+
 
 ### 🤖 Robotics
 
