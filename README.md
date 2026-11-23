@@ -1,5 +1,9 @@
 ## Hi, I'm Hessam Kaveh 👋
 
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YE8Qk2gAAAAJ)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hessam-kaveh/)
+[![Website](https://img.shields.io/badge/Website-hessamkaveh.github.io-24292f?logo=github)](https://hessamkaveh.github.io)
+
 **Research Fellow at the [Italian Institute of Technology (IIT)](https://www.iit.it)**, Italy.
 
 I work on **computer vision for robotics**: perception for robotic manipulation, RGB-D object detection and 6D pose
@@ -8,6 +12,13 @@ estimation, and calibration on industrial arms. I'm also interested in **deep le
 
 Most of my repositories are small studies built around one question: not "can I train model X", but *when can a
 robot (or a clinician) trust what the model says, and when does it quietly fail?*
+
+
+<p align="center">
+  <a href="https://github.com/HessamKaveh/6d-pose-screw-detection"><img src="https://raw.githubusercontent.com/HessamKaveh/6d-pose-screw-detection/main/results/figures/demo.gif" height="170" alt="screw 6D pose"></a>
+  <a href="https://github.com/HessamKaveh/pose-safety-margins"><img src="https://raw.githubusercontent.com/HessamKaveh/pose-safety-margins/main/results/figures/examples.png" height="170" alt="conformal keypoint margins"></a>
+  <a href="https://github.com/HessamKaveh/segmentation-risk-control"><img src="https://raw.githubusercontent.com/HessamKaveh/segmentation-risk-control/main/results/figures/examples.png" height="170" alt="risk-controlled masks"></a>
+</p>
 
 ---
 
@@ -29,6 +40,18 @@ robot (or a clinician) trust what the model says, and when does it quietly fail?
   6D pose from RGB-D for bin-picking. Median position error 0.37 mm; 96 % of objects within 5 mm / 5°.
 * At IIT: ROS 2 perception for UR5e and UR15 arms with a ZED 2i stereo camera, including hand-eye calibration and
   screw detection and tracking.
+
+### 📄 Selected publications
+
+* **Advancing civil infrastructure with digital twins: a review of applications and challenges**. H. Kaveh, R. Alhajj.
+  *Journal of Civil Engineering and Management* 31(8), 2025.
+* **Recent advances in crack detection technologies for structures: a survey of 2022–2023 literature**. H. Kaveh, R. Alhajj.
+  *Frontiers in Built Environment* 10, 2024.
+* **Employing vision transformers for crack detection and health monitoring of concrete structures**. H. Kaveh, R. Alhajj.
+  *International Journal of Reliability and Safety* 20(2), 2026.
+* **Toxic language and threat detection in social media**. N. J. Tofighi, H. Kaveh, et al. *ICSAI* 2025.
+
+Full list on [Google Scholar](https://scholar.google.com/citations?user=YE8Qk2gAAAAJ).
 
 ### 📚 Other projects
 
