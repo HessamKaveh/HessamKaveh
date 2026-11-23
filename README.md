@@ -16,8 +16,9 @@ robot (or a clinician) trust what the model says, and when does it quietly fail?
 
 <p align="center">
   <a href="https://github.com/HessamKaveh/6d-pose-screw-detection"><img src="https://raw.githubusercontent.com/HessamKaveh/6d-pose-screw-detection/main/results/figures/demo.gif" width="32%" alt="screw 6D pose"></a>
-  <a href="https://github.com/HessamKaveh/pose-safety-margins"><img src="assets/pose.png" width="32%" alt="conformal keypoint margins"></a>
-  <a href="https://github.com/HessamKaveh/segmentation-risk-control"><img src="assets/segmentation.png" width="32%" alt="risk-controlled masks"></a>
+  <a href="https://github.com/HessamKaveh/pose-safety-margins"><img src="assets/pose.gif" width="32%" alt="conformal keypoint margins"></a>
+  <a href="https://github.com/HessamKaveh/segmentation-risk-control"><img src="assets/segmentation.gif" width="32%" alt="risk-controlled masks"></a>
+<br><sub>6D screw pose from RGB-D · 90 % conformal safety discs on keypoints as the camera degrades · risk-controlled masks (VOC-calibrated, shown on COCO) under motion blur</sub>
 </p>
 
 ---
